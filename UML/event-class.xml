@@ -1,0 +1,33 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="393" measuredH="203" mockupW="230" mockupH="157">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="230" y="46" w="-1" h="-1" measuredW="96" measuredH="27" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CMainFrame</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="230" y="98" w="-1" h="-1" measuredW="101" measuredH="27" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CDlgAppTag%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="__group__" x="163" y="155" w="230" h="48" measuredW="230" measuredH="48" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="62" y="0" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>CDlgEventMgr</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="21" w="-1" h="-1" measuredW="116" measuredH="27" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>CDlgEventType</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="110" y="21" w="-1" h="-1" measuredW="120" measuredH="27" zOrder="2" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>CDlgEvevntRule</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
