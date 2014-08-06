@@ -1,6 +1,6 @@
 <mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="2033" measuredH="703" mockupW="1976" mockupH="669">
   <controls>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="350" y="34" w="116" h="27" measuredW="116" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="326" y="34" w="172" h="27" measuredW="116" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <text>eNVR%28live%20view%29</text>
       </controlProperties>
@@ -30,7 +30,7 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="369" y="78" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="326" y="78" w="172" h="27" measuredW="73" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <text>CNVRBk</text>
       </controlProperties>
