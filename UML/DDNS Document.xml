@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3088" measuredH="884" mockupW="3041" mockupH="825">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3088" measuredH="928" mockupW="3041" mockupH="869">
   <controls>
     <control controlID="127" controlTypeID="com.balsamiq.mockups::CheckBox" x="85" y="123" w="-1" h="-1" measuredW="99" measuredH="22" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -198,14 +198,14 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="167" controlTypeID="com.balsamiq.mockups::Button" x="1926" y="146" w="-1" h="-1" measuredW="49" measuredH="27" zOrder="39" locked="false" isInGroup="-1">
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Button" x="1926" y="146" w="-1" h="-1" measuredW="58" measuredH="27" zOrder="39" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>DNS</text>
+        <text>DDNS</text>
       </controlProperties>
     </control>
-    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="1798" y="186" w="-1" h="-1" measuredW="167" measuredH="21" zOrder="40" locked="false" isInGroup="-1">
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="1798" y="186" w="-1" h="-1" measuredW="227" measuredH="21" zOrder="40" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>DNS%20registration%20and%20update</text>
+        <text>Domain%20Name%20Registration%20and%20update</text>
       </controlProperties>
     </control>
     <control controlID="169" controlTypeID="com.balsamiq.mockups::Canvas" x="1376" y="487" w="385" h="130" measuredW="100" measuredH="70" zOrder="41" locked="false" isInGroup="-1"/>
@@ -386,9 +386,9 @@
         <text>SR%20/%20Etrocenter</text>
       </controlProperties>
     </control>
-    <control controlID="214" controlTypeID="com.balsamiq.mockups::Button" x="2655" y="276" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="69" locked="false" isInGroup="-1">
+    <control controlID="214" controlTypeID="com.balsamiq.mockups::Button" x="2655" y="276" w="-1" h="-1" measuredW="209" measuredH="27" zOrder="69" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>DNS%20%28dyndns.org%20/%20ddns.nu%20./..%29</text>
+        <text>DDNS%20%28dyndns.org%20/%20ddns.nu%20./..%29</text>
       </controlProperties>
     </control>
     <control controlID="215" controlTypeID="com.balsamiq.mockups::Arrow" x="2514" y="284" w="116" h="10" measuredW="150" measuredH="100" zOrder="70" locked="false" isInGroup="-1">
@@ -410,6 +410,164 @@
     <control controlID="218" controlTypeID="com.balsamiq.mockups::CallOut" x="2327" y="269" w="-1" h="-1" measuredW="41" measuredH="39" zOrder="73" locked="false" isInGroup="-1">
       <controlProperties>
         <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="219" controlTypeID="com.balsamiq.mockups::Button" x="2445" y="598" w="-1" h="-1" measuredW="125" measuredH="27" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Setup%20Etrocenter</text>
+      </controlProperties>
+    </control>
+    <control controlID="220" controlTypeID="com.balsamiq.mockups::RoundButton" x="2378" y="604" w="16" h="15" measuredW="32" measuredH="32" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="221" controlTypeID="com.balsamiq.mockups::Button" x="2630" y="598" w="-1" h="-1" measuredW="101" measuredH="27" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Restore%20Data</text>
+      </controlProperties>
+    </control>
+    <control controlID="222" controlTypeID="com.balsamiq.mockups::Button" x="2783" y="598" w="-1" h="-1" measuredW="111" measuredH="27" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Keep%20device.ini</text>
+      </controlProperties>
+    </control>
+    <control controlID="223" controlTypeID="com.balsamiq.mockups::Button" x="2785" y="669" w="-1" h="-1" measuredW="111" measuredH="27" zOrder="78" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Installer%20Setup</text>
+      </controlProperties>
+    </control>
+    <control controlID="224" controlTypeID="com.balsamiq.mockups::Button" x="2601" y="669" w="-1" h="-1" measuredW="127" measuredH="27" zOrder="79" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Restore%20device.ini</text>
+      </controlProperties>
+    </control>
+    <control controlID="225" controlTypeID="com.balsamiq.mockups::RoundButton" x="2499" y="675" w="16" h="15" measuredW="32" measuredH="32" zOrder="80" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="226" controlTypeID="com.balsamiq.mockups::RoundButton" x="2494" y="671" w="27" h="24" measuredW="32" measuredH="32" zOrder="81" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <color>16777215</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="227" controlTypeID="com.balsamiq.mockups::Arrow" x="2405" y="606" w="40" h="10" measuredW="150" measuredH="100" zOrder="82" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="228" controlTypeID="com.balsamiq.mockups::Arrow" x="2586" y="606" w="40" h="10" measuredW="150" measuredH="100" zOrder="83" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="229" controlTypeID="com.balsamiq.mockups::Arrow" x="2737" y="606" w="40" h="10" measuredW="150" measuredH="100" zOrder="84" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="230" controlTypeID="com.balsamiq.mockups::Arrow" x="2834" y="625" w="10" h="35" measuredW="150" measuredH="100" zOrder="85" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="231" controlTypeID="com.balsamiq.mockups::Arrow" x="2737" y="675" w="40" h="10" measuredW="150" measuredH="100" zOrder="86" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="232" controlTypeID="com.balsamiq.mockups::Arrow" x="2546" y="677" w="40" h="10" measuredW="150" measuredH="100" zOrder="87" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="233" controlTypeID="com.balsamiq.mockups::Label" x="2578" y="577" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="88" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Choose</text>
+      </controlProperties>
+    </control>
+    <control controlID="234" controlTypeID="com.balsamiq.mockups::Button" x="2432" y="815" w="-1" h="-1" measuredW="83" measuredH="27" zOrder="89" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="235" controlTypeID="com.balsamiq.mockups::RoundButton" x="2365" y="821" w="16" h="15" measuredW="32" measuredH="32" zOrder="90" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="236" controlTypeID="com.balsamiq.mockups::Button" x="2583" y="815" w="-1" h="-1" measuredW="261" measuredH="27" zOrder="91" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Export%20Register%20file%20+%20sql%20file%20+%20device.ini</text>
+      </controlProperties>
+    </control>
+    <control controlID="237" controlTypeID="com.balsamiq.mockups::Button" x="2762" y="901" w="-1" h="-1" measuredW="82" measuredH="27" zOrder="92" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Import%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="238" controlTypeID="com.balsamiq.mockups::Button" x="2449" y="901" w="-1" h="-1" measuredW="261" measuredH="27" zOrder="93" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Import%20Register%20file%20+%20sql%20file%20+%20device.ini</text>
+      </controlProperties>
+    </control>
+    <control controlID="239" controlTypeID="com.balsamiq.mockups::RoundButton" x="2345" y="906" w="16" h="15" measuredW="32" measuredH="32" zOrder="94" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="240" controlTypeID="com.balsamiq.mockups::RoundButton" x="2340" y="902" w="27" h="24" measuredW="32" measuredH="32" zOrder="95" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0</backgroundAlpha>
+        <color>16777215</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="241" controlTypeID="com.balsamiq.mockups::Arrow" x="2392" y="823" w="40" h="10" measuredW="150" measuredH="100" zOrder="96" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="242" controlTypeID="com.balsamiq.mockups::Arrow" x="2533" y="823" w="40" h="10" measuredW="150" measuredH="100" zOrder="97" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="243" controlTypeID="com.balsamiq.mockups::Arrow" x="2716" y="909" w="40" h="10" measuredW="150" measuredH="100" zOrder="98" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="244" controlTypeID="com.balsamiq.mockups::Arrow" x="2798" y="851" w="10" h="35" measuredW="150" measuredH="100" zOrder="99" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>false</leftArrow>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="245" controlTypeID="com.balsamiq.mockups::Arrow" x="2392" y="908" w="40" h="10" measuredW="150" measuredH="100" zOrder="100" locked="false" isInGroup="-1">
+      <controlProperties>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+        <text/>
       </controlProperties>
     </control>
   </controls>
