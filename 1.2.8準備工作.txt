@@ -8,3 +8,8 @@ zack、lynn
 release note (RD release note、PM release note)
 
 DDNS(缺remote playback、get ddns info api) / Event
+
+code rule:
+member 應為private
+
+for迴圈不宣告變數
