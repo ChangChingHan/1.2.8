@@ -1,0 +1,605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0058)http://mantis.etrovision.com:8083/view.php?id=780#bugnotes -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/default.css">
+	<script type="text/javascript" language="JavaScript"><!--
+		if(document.layers) {document.write("<style>td{padding:0px;}<\/style>")}
+	// --></script>
+	
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma-directive" content="no-cache">
+	<meta http-equiv="Cache-Directive" content="no-cache">
+	<meta http-equiv="Expires" content="Thu, 14 Aug 2014 02:20:48 GMT">
+	<title>0000780: event視窗狀態不會顯示,重啟service也無效 - Mantis</title>
+	<script type="text/JavaScript" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/common.js"></script>
+</head>
+<body>
+<div class="center"><span class="pagetitle"></span></div>
+<div align="left"><a href="http://www.mantisbt.org/" title="Mantis Bugtracker"><img border="0" width="238" height="78" alt="Mantis Bugtracker" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/mantis_logo.gif"></a></div><table class="hide"><tbody><tr><td class="login-info-left">登入為: <span class="italic">lynn</span> <span class="small">(張靜涵 - 管理者)</span></td><td class="login-info-middle"><span class="italic">08-14-2014 10:20</span></td><td class="login-info-right"><form method="post" name="form_set_project" action="http://mantis.etrovision.com:8083/set_project.php">專案: <select name="project_id" class="small" onchange="document.forms.form_set_project.submit();"><option value="0">全部專案</option>
+<option value="31">CMS</option>
+<option value="18" selected="selected">EtroCenter</option>
+<option value="18;22">» access control</option>
+<option value="18;28">» EtroGate</option>
+<option value="33">SL-04</option>
+<option value="34">SL-50</option>
+<option value="32">SR(Embedded NVR)</option>
+</select> <input type="submit" class="button-small" value="切換"></form></td></tr></tbody></table><table class="width100" cellspacing="0"><tbody><tr><td class="menu"><a href="http://mantis.etrovision.com:8083/main_page.php">首頁</a> | <a href="http://mantis.etrovision.com:8083/my_view_page.php">我的匯整頁面</a> | <a href="http://mantis.etrovision.com:8083/view_all_bug_page.php">檢視 Bug</a> | <a href="http://mantis.etrovision.com:8083/bug_report_page.php">回報 Bug</a> | <a href="http://mantis.etrovision.com:8083/changelog_page.php">版本更動紀錄</a> | <a href="http://mantis.etrovision.com:8083/summary_page.php">摘要</a> | <a href="http://mantis.etrovision.com:8083/proj_doc_page.php">使用說明</a> | <a href="http://mantis.etrovision.com:8083/manage_proj_edit_page.php?project_id=18">管理</a> | <a href="http://mantis.etrovision.com:8083/news_menu_page.php">編輯新聞</a> | <a href="http://mantis.etrovision.com:8083/account_page.php">個人帳號</a> | <a href="http://mantis.etrovision.com:8083/logout_page.php">登出</a></td><td class="right" style="white-space: nowrap;"><form method="post" action="http://mantis.etrovision.com:8083/jump_to_bug.php"><input type="text" name="bug_id" size="10" class="small">&nbsp;<input type="submit" class="button-small" value="跳至">&nbsp;</form></td></tr></tbody></table>
+<br>
+<table class="width100" cellspacing="1">
+
+
+<tbody><tr>
+
+	<!-- Title -->
+	<td class="form-title" colspan="3">
+		檢視 Bug 詳細資料(簡式)
+		<!-- Jump to Bugnotes -->
+		<span class="small">[&nbsp;<a href="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis.htm">跳到 Bug 筆記</a>&nbsp;]</span>
+
+		<!-- Send Bug Reminder -->
+			<span class="small">
+			[&nbsp;<a href="http://mantis.etrovision.com:8083/bug_reminder_page.php?bug_id=780">傳送提醒的 E-Mail 給使用者</a>&nbsp;]		</span>
+		</td>
+
+	<!-- prev/next links -->
+		<td class="center"><span class="small">
+		[&nbsp;<a href="http://mantis.etrovision.com:8083/bug_view_page.php?bug_id=1084">&gt;&gt;</a>&nbsp;]	</span></td>
+	
+	<!-- Links -->
+	<td class="right" colspan="2">
+
+		<!-- Advanced View (if enabled) -->
+			<span class="small">[&nbsp;<a href="http://mantis.etrovision.com:8083/bug_view_advanced_page.php?bug_id=780">進階檢視</a>&nbsp;]</span>
+	
+			<!-- History -->
+		<span class="small">[&nbsp;<a href="http://mantis.etrovision.com:8083/bug_view_page.php?bug_id=780&history=1#history">Bug 歷史紀錄</a>&nbsp;]</span>
+	
+		<!-- Print Bug -->
+		<span class="small">[&nbsp;<a href="http://mantis.etrovision.com:8083/print_bug_page.php?bug_id=780">列印</a>&nbsp;]</span>
+
+	</td>
+
+</tr>
+
+
+<!-- Labels -->
+<tr class="row-category">
+	<td>
+		編號	</td>
+	<td>
+		類別	</td>
+	<td>
+		嚴重性	</td>
+	<td>
+		出現頻率	</td>
+	<td>
+		回報日期	</td>
+	<td>
+		上次更新	</td>
+</tr>
+
+
+<tr class="row-1">
+
+	<!-- Bug ID -->
+	<td>
+		0000780	</td>
+
+	<!-- Category -->
+	<td>
+		[EtroCenter] service	</td>
+
+	<!-- Severity -->
+	<td>
+		等級 3	</td>
+
+	<!-- Reproducibility -->
+	<td>
+		100%	</td>
+
+	<!-- Date Submitted -->
+	<td>
+		12-10-13 16:27	</td>
+
+	<!-- Date Updated -->
+	<td>
+		08-14-14 10:04	</td>
+
+</tr>
+
+
+<!-- spacer -->
+<tr height="5" class="spacer">
+	<td colspan="6"></td>
+</tr>
+
+
+<tr class="row-2">
+
+	<!-- Reporter -->
+	<td class="category">
+		回報人	</td>
+	<td>
+		Anna	</td>
+
+	<!-- View Status -->
+	<td class="category">
+		檢視狀態	</td>
+	<td>
+		公開型	</td>
+
+	<!-- spacer -->
+	<td colspan="2">&nbsp;</td>
+</tr>
+
+
+<!-- Handler -->
+<tr class="row-1">
+	<td class="category">
+		指定給	</td>
+	<td colspan="5">
+			</td>
+</tr>
+
+
+<tr class="row-2">
+
+	<!-- Priority -->
+	<td class="category">
+		優先度	</td>
+	<td>
+		一般	</td>
+
+	<!-- Resolution -->
+	<td class="category">
+		分析	</td>
+	<td>
+		未結案	</td>
+
+	<!-- spacer -->
+	<td colspan="2">&nbsp;</td>
+</tr>
+
+
+<tr class="row-1">
+
+	<!-- Status -->
+	<td class="category">
+		狀態	</td>
+	<td bgcolor="#ffa0a0">
+		新問題	</td>
+
+	<td colspan="2">&nbsp;</td>
+	<!-- Product Version -->
+		<td class="category">
+		產品版本	</td>
+	<td>
+		1.2.4.4	</td>
+	</tr>
+
+
+<!-- spacer -->
+<tr height="5" class="spacer">
+	<td colspan="6"></td>
+</tr>
+
+
+<!-- Summary -->
+<tr class="row-2">
+	<td class="category">
+		摘要	</td>
+	<td colspan="5">
+		0000780: event視窗狀態不會顯示,重啟service也無效	</td>
+</tr>
+
+
+<!-- Description -->
+<tr class="row-1">
+	<td class="category">
+		說明	</td>
+	<td colspan="5">
+		1.open etrocenter<br>
+2.add camera<br>
+3.drag draw to live view<br>
+result:event不會出現"video open",trigger event也沒有"motion detection on"，重啟service也無效	</td>
+</tr>
+
+
+<!-- Additional Information -->
+<tr class="row-2">
+	<td class="category">
+		額外資訊	</td>
+	<td colspan="5">
+			</td>
+</tr>
+
+
+<!-- spacer -->
+<tr height="5" class="spacer">
+	<td colspan="6"></td>
+</tr>
+
+
+<!-- Custom Fields -->
+	<tr class="row-1">
+		<td class="category">
+			測試電腦OS版本		</td>
+		<td colspan="5">
+			w8		</td>
+	</tr>
+
+
+<!-- spacer -->
+<tr height="5" class="spacer">
+	<td colspan="6"></td>
+</tr>
+
+
+<!-- Attachments -->
+<tr class="row-2">
+	<td class="category">
+		<a name="attachments" id="attachments">
+		附件檔案	</a></td>
+	<td colspan="5">
+		<a href="http://mantis.etrovision.com:8083/file_download.php?file_id=416&type=bug"><img src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/jpgicon.gif" width="16" height="16" border="0"></a>&nbsp;<a href="http://mantis.etrovision.com:8083/file_download.php?file_id=416&type=bug">event.jpg</a> [<a href="http://mantis.etrovision.com:8083/file_download.php?file_id=416&type=bug" target="_blank">^</a>] (333,133 bytes) <span class="italic">12-10-13 16:27</span> [<a class="small" href="http://mantis.etrovision.com:8083/bug_file_delete.php?file_id=416">刪除</a>]	</td>
+</tr>
+
+<!-- Buttons -->
+<tr align="center">
+	<td align="center" colspan="6">
+<table><tbody><tr class="vcenter"><td class="center"><form method="post" action="http://mantis.etrovision.com:8083/bug_update_page.php">
+	<input type="hidden" name="bug_id" value="780">
+	<input type="submit" class="button" value="更新 Bug">
+</form>
+</td><td class="center"><form method="post" action="http://mantis.etrovision.com:8083/bug_assign.php"><input type="submit" class="button" value="分派給:"> <select name="handler_id"><option value="104" selected="selected">[我自己]</option><option value="73">[回報人]</option><option value="1">administrator</option><option value="75">Allen.Yang</option><option value="86">andrew</option><option value="101">andrew.cheng</option><option value="73">Anna</option><option value="74">Chuan</option><option value="111">eric</option><option value="90">Gloria</option><option value="71">Jason</option><option value="77">Javan</option><option value="72">Jelan</option><option value="115">kevin_chen</option><option value="105">larry</option><option value="104">lynn</option><option value="10">Tony</option><option value="112">zack</option></select><input type="hidden" name="bug_id" value="780">
+</form>
+</td><td class="center"><form method="post" action="http://mantis.etrovision.com:8083/bug_change_status_page.php"><input type="submit" class="button" value="更動狀態為:"> <select name="new_status"><option value="50" selected="selected">已分派</option></select><input type="hidden" name="bug_id" value="780">
+</form>
+</td><td class="center"><form method="post" action="http://mantis.etrovision.com:8083/bug_monitor.php">
+	<input type="hidden" name="bug_id" value="780">
+	<input type="hidden" name="action" value="add">
+	<input type="submit" class="button" value="監控 Bug">
+</form>
+</td><td class="center"><form method="post" action="http://mantis.etrovision.com:8083/bug_report_page.php">
+	<input type="hidden" name="m_id" value="780">
+	<input type="submit" class="button" value="建立複製">
+</form>
+</td><td class="center"></td><td class="center"></td></tr></tbody></table>	</td>
+</tr>
+
+
+</tbody></table>
+
+<br>
+
+<div id="relationships_open"><table class="width100" cellspacing="1">
+<tbody><tr class="row-2" valign="top">
+	<td width="15%" class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;relationships&#39;, g_div_relationships ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/minus.png" alt="-"></a>&nbsp;相關的 Bug	</td>
+</tr>
+<tr class="row-1">
+	<td class="category">新增相關問題</td>
+	<td>這個問題		<form method="POST" action="http://mantis.etrovision.com:8083/bug_relationship_add.php">
+		<input type="hidden" name="src_bug_id" value="780" size="4">
+		<select name="rel_type">
+<option value="1">相關 to</option>
+<option value="2">上層 of</option>
+<option value="3">下層 of</option>
+<option value="0">複製 of</option>
+<option value="4">已經複製</option>
+</select>
+		<input type="text" name="dest_bug_id" value="" maxlength="7">
+		<input type="submit" name="add_relationship" class="button" value="新增">
+		</form>
+	</td></tr>
+<tr>
+	<td colspan="2"></td>
+</tr>
+</tbody></table>
+
+</div><div id="relationships_closed" style="display: none;"><table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title">
+		<a href="" onclick="ToggleDiv( &#39;relationships&#39;, g_div_relationships ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>&nbsp;相關的 Bug	</td>
+</tr>
+</tbody></table>
+
+</div><script type="text/JavaScript"><!--
+	SetDiv( "relationships", g_div_relationships );
+--></script><br>
+
+<div id="upload_form_closed" style="display: none;">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;upload_form&#39;, g_div_upload_form ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>
+		上傳檔案	</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="upload_form_open">
+<form method="post" enctype="multipart/form-data" action="http://mantis.etrovision.com:8083/bug_file_add.php">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;upload_form&#39;, g_div_upload_form ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/minus.png" alt="-"></a>
+		上傳檔案	</td>
+</tr>
+<tr class="row-1">
+	<td class="category" width="15%">
+		選擇檔案<br>
+		<span class="small">(檔案大小限制: 2,000k)</span>	</td>
+	<td width="85%">
+		<input type="hidden" name="bug_id" value="780">
+		<input type="hidden" name="max_file_size" value="2000000">
+		<input name="file" type="file" size="40">
+		<input type="submit" class="button" value="上傳檔案">
+	</td>
+</tr>
+</tbody></table>
+</form>
+</div>
+
+<script type="text/javascript">
+<!--
+	SetDiv( "upload_form", g_div_upload_form );
+-->
+</script>
+<a name="monitors" id="monitors"><br>
+<div id="monitoring_closed" style="display: none;">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;monitoring&#39;, g_div_monitoring ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>
+		使用者監控這 bug	</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="monitoring_open">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="center">
+		沒有使用者監控這 bug.	</td>
+</tr>
+</tbody></table>
+</div>
+
+<script type="text/javascript">
+<!--
+	SetDiv( "monitoring", g_div_monitoring );
+-->
+</script>
+
+</a><a name="addbugnote"></a> <br>
+
+<div id="bugnote_add_closed" style="display: none;">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;bugnote_add&#39;, g_div_bugnote_add ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>
+		新增 Bug 筆記	</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="bugnote_add_open">
+<form method="post" action="http://mantis.etrovision.com:8083/bugnote_add.php">
+<input type="hidden" name="bug_id" value="780">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;bugnote_add&#39;, g_div_bugnote_add ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/minus.png" alt="-"></a>
+		新增 Bug 筆記	</td>
+</tr>
+<tr class="row-2">
+	<td class="category" width="25%">
+		Bug 筆記	</td>
+	<td width="75%">
+		<textarea name="bugnote_text" cols="80" rows="10" wrap="virtual"></textarea>
+	</td>
+</tr>
+<tr class="row-1">
+	<td class="category">
+		檢視狀態	</td>
+	<td>
+			<input type="checkbox" name="private">
+封閉型	</td>
+</tr>
+<tr>
+	<td class="center" colspan="2">
+		<input type="submit" class="button" value="新增 Bug 筆記">
+	</td>
+</tr>
+</tbody></table>
+</form>
+</div>
+
+<script type="text/JavaScript">
+<!--
+	SetDiv( "bugnote_add", g_div_bugnote_add );
+// -->
+</script>
+
+
+<a name="bugnotes" id="bugnotes"><br>
+
+<div id="bugnotes_closed" style="display: none;">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;bugnotes&#39;, g_div_bugnotes ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>
+		Bug 筆記	</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="bugnotes_open">
+<table class="width100" cellspacing="1">
+<tbody><tr>
+	<td class="form-title" colspan="2">
+		<a href="" onclick="ToggleDiv( &#39;bugnotes&#39;, g_div_bugnotes ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/minus.png" alt="-"></a>
+		Bug 筆記	</td>
+</tr>
+<tr class="bugnote" name="1427" id="1427">
+        <td class="bugnote-public">
+		<span class="small">(0001427)</span><br>
+		Anna				<br>
+		<span class="small">12-12-13 15:17</span><br>
+				<br><span class="small">
+		<form method="POST" action="http://mantis.etrovision.com:8083/bugnote_edit_page.php?bugnote_id=1427"><input type="submit" class="button-small" value="編輯"></form><form method="POST" action="http://mantis.etrovision.com:8083/bugnote_delete.php?bugnote_id=1427"><input type="submit" class="button-small" value="刪除"></form><form method="POST" action="http://mantis.etrovision.com:8083/bugnote_set_view_state.php?private=1&bugnote_id=1427"><input type="submit" class="button-small" value="設為封閉"></form>		</span>
+	</td>
+	<td class="bugnote-note-public">
+		PC重開機-&gt;正常	</td>
+</tr>
+<tr>
+	<td class="spacer" colspan="2">&nbsp;</td>
+</tr>
+<tr class="bugnote" name="1921" id="1921">
+        <td class="bugnote-public">
+		<span class="small">(0001921)</span><br>
+		lynn				<br>
+		<span class="small">08-14-14 10:04</span><br>
+		<span class="small">已編輯:  08-14-14 10:20</span><br>		<br><span class="small">
+		<form method="POST" action="http://mantis.etrovision.com:8083/bugnote_edit_page.php?bugnote_id=1921"><input type="submit" class="button-small" value="編輯"></form><form method="POST" action="http://mantis.etrovision.com:8083/bugnote_delete.php?bugnote_id=1921"><input type="submit" class="button-small" value="刪除"></form><form method="POST" action="http://mantis.etrovision.com:8083/bugnote_set_view_state.php?private=1&bugnote_id=1921"><input type="submit" class="button-small" value="設為封閉"></form>		</span>
+	</td>
+	<td class="bugnote-note-public">
+		1.<br>
+AddDevice.cpp    //lynn modify at 20140814<br>
+因UI設計錯誤<br>
+release at 1.2.7.4<br>
+<br>
+<br>
+2. <br>
+AddDevice.cpp    //lynn modify at 20140815<br>
+多語系未加入相對應字串<br>
+release at 1.2.7.5<br>
+<br>
+	</td>
+</tr>
+<tr>
+	<td class="spacer" colspan="2">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+
+<script type="text/JavaScript">
+<!--
+	SetDiv( "bugnotes", g_div_bugnotes );
+// -->
+</script>
+
+	<!-- Jump to Bugnote add form -->
+	<span class="small">[&nbsp;</span></a><a href="http://mantis.etrovision.com:8083/view.php?id=780#addbugnote">新增 Bug 筆記</a>&nbsp;]
+	<br>
+
+
+<a name="history" id="history"><br>
+
+<div id="history_closed" style="display: none;">
+<table class="width100" cellspacing="0">
+<tbody><tr>
+	<td class="form-title" colspan="4">
+		<a href="" onclick="ToggleDiv( &#39;history&#39;, g_div_history ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/plus.png" alt="+"></a>
+		Bug 歷史紀錄	</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="history_open">
+<table class="width100" cellspacing="0">
+<tbody><tr>
+	<td class="form-title" colspan="4">
+		<a href="" onclick="ToggleDiv( &#39;history&#39;, g_div_history ); return false;"><img border="0" src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/minus.png" alt="-"></a>
+		Bug 歷史紀錄	</td>
+</tr>
+<tr class="row-category-history">
+	<td class="small-caption">
+		日期已更改	</td>
+	<td class="small-caption">
+		帳號	</td>
+	<td class="small-caption">
+		欄位	</td>
+	<td class="small-caption">
+		更動	</td>
+</tr>
+<tr class="row-1">
+	<td class="small-caption">
+		12-10-13 16:27	</td>
+	<td class="small-caption">
+		Anna	</td>
+	<td class="small-caption">
+		新 Bug	</td>
+	<td class="small-caption">
+			</td>
+</tr>
+<tr class="row-2">
+	<td class="small-caption">
+		12-10-13 16:27	</td>
+	<td class="small-caption">
+		Anna	</td>
+	<td class="small-caption">
+		測試電腦OS版本	</td>
+	<td class="small-caption">
+		&nbsp;=&gt; w8	</td>
+</tr>
+<tr class="row-1">
+	<td class="small-caption">
+		12-10-13 16:27	</td>
+	<td class="small-caption">
+		Anna	</td>
+	<td class="small-caption">
+		檔案已新增: : event.jpg	</td>
+	<td class="small-caption">
+			</td>
+</tr>
+<tr class="row-2">
+	<td class="small-caption">
+		12-12-13 15:17	</td>
+	<td class="small-caption">
+		Anna	</td>
+	<td class="small-caption">
+		Bug 筆記已新增: 0001427	</td>
+	<td class="small-caption">
+			</td>
+</tr>
+<tr class="row-1">
+	<td class="small-caption">
+		08-14-14 10:04	</td>
+	<td class="small-caption">
+		lynn	</td>
+	<td class="small-caption">
+		Bug 筆記已新增: 0001921	</td>
+	<td class="small-caption">
+			</td>
+</tr>
+<tr class="row-2">
+	<td class="small-caption">
+		08-14-14 10:20	</td>
+	<td class="small-caption">
+		lynn	</td>
+	<td class="small-caption">
+		Bug 筆記已編輯: 0001921	</td>
+	<td class="small-caption">
+			</td>
+</tr>
+</tbody></table>
+</div>
+
+<script type="text/JavaScript">
+<!--
+	SetDiv( "history", g_div_history );
+// -->
+</script>
+	<br>
+	<hr size="1">
+<table border="0" width="100%" cellspacing="0" cellpadding="0"><tbody><tr valign="top"><td>	<span class="timer"><a href="http://www.mantisbt.org/">Mantis 1.0.0rc2</a>[<a href="http://www.mantisbt.org/" target="_blank">^</a>]</span>
+	<address>Copyright © 2000 - 2005 Mantis Group</address>
+	<address><a href="mailto:TSAdmin@chem.com.tw">TSAdmin@chem.com.tw</a></address>
+	38 total queries executed.<br>
+	32 unique queries executed.<br>
+</td><td><div align="right"><a href="http://www.mantisbt.org/" title="Powered by Mantis Bugtracker"><img src="./0000780  event視窗狀態不會顯示,重啟service也無效 - Mantis_files/mantis_logo_button.gif" width="88" height="35" alt="Powered by Mantis Bugtracker" border="0"></a></div></td></tr></tbody></table>
+
+</a></body></html>
