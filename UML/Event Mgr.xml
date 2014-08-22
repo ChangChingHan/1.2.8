@@ -323,9 +323,9 @@
         <verticalScrollbar>true</verticalScrollbar>
       </controlProperties>
     </control>
-    <control controlID="272" controlTypeID="com.balsamiq.mockups::Button" x="528" y="1132" w="-1" h="-1" measuredW="45" measuredH="27" zOrder="58" locked="false" isInGroup="-1">
+    <control controlID="272" controlTypeID="com.balsamiq.mockups::Button" x="528" y="1132" w="-1" h="-1" measuredW="31" measuredH="27" zOrder="58" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Add</text>
+        <text>+</text>
       </controlProperties>
     </control>
     <control controlID="273" controlTypeID="com.balsamiq.mockups::Label" x="320" y="1135" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="59" locked="false" isInGroup="-1">
@@ -434,9 +434,9 @@
         <verticalScrollbar>true</verticalScrollbar>
       </controlProperties>
     </control>
-    <control controlID="293" controlTypeID="com.balsamiq.mockups::Button" x="1315" y="1132" w="-1" h="-1" measuredW="45" measuredH="27" zOrder="79" locked="false" isInGroup="-1">
+    <control controlID="293" controlTypeID="com.balsamiq.mockups::Button" x="1315" y="1132" w="-1" h="-1" measuredW="31" measuredH="27" zOrder="79" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Add</text>
+        <text>+</text>
       </controlProperties>
     </control>
     <control controlID="294" controlTypeID="com.balsamiq.mockups::Label" x="1107" y="1135" w="-1" h="-1" measuredW="67" measuredH="21" zOrder="80" locked="false" isInGroup="-1">
