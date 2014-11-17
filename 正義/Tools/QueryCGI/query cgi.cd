@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="QueryManager">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQIAAAAdAADAQEICgCABIKIGRAAIQAABBAIQAAARAA=</HashCode>
+      <FileName>querymanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="PMingLiU" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,4 @@
+{
+   "http://guest:pass@10.1.21.67:100/config/stream.cgi" : "error",
+   "http://root:pass@10.1.21.37:80/config/info.cgi" : "{\"model\":\"EV8782U-BL\", \"version\":\"1.1.6\", \"build\":\"006\", \"builddate\":\"20130927\", \"sn\":\"P013011652\", \"hiddenmod\":\"EV8782U-BL\", \"wifilan\":\"no-nic\", \"macaddr\":\"00:19:6c:60:98:28\", \"ipaddr\":\"10.1.21.37\", \"netmask\":\"255.255.254.0\", \"gateway\":\"10.1.20.250\", \"dns\":\"10.1.20.96\", \"dns1\":\"168.95.192.1\"}"
+}

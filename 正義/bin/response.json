@@ -1,0 +1,4 @@
+{
+   "http://guest:pass@10.1.21.67:100/config/stream.cgi" : "error",
+   "http://root:pass@10.1.21.37:80/config/ptz.cgi" : "error"
+}

@@ -1,0 +1,309 @@
+{
+   "cgi" : {
+      "action_mail" : {
+         "auth_user1" : "no",
+         "enable_user1" : "0",
+         "event_enable_user1" : "yes",
+         "host_user1" : "smtp.mymail.com",
+         "imgattach" : "no",
+         "pass_user1" : "password",
+         "port_user1" : "25",
+         "sender_user1" : "user@smtp.mymail.com",
+         "ssl_user1" : "no",
+         "text_enable_user1" : "no",
+         "text_user1" : "",
+         "timeout_user1" : "5",
+         "to_user1" : "user@smtp.mymail.com",
+         "user_user1" : "username"
+      },
+      "audio" : {
+         "bitrate" : "64",
+         "channel" : "1",
+         "codec" : "ulaw",
+         "samplerate" : "8000",
+         "vol_in" : "6",
+         "vol_out" : "6"
+      },
+      "audio_in" : {
+         "in" : "mic"
+      },
+      "audiopost" : {
+         "port" : "1852"
+      },
+      "camera_info" : {
+         "name" : "Network Camera"
+      },
+      "datetime" : {
+         "date" : "2014-09-22",
+         "method" : "0",
+         "ntp_period" : "48",
+         "time" : "16:35:07",
+         "timeserver" : "null",
+         "timezone" : "66"
+      },
+      "ddns" : {
+         "ddns" : "off",
+         "host" : "ddnsuser",
+         "interval" : "30",
+         "pass" : " ",
+         "provider" : "dyndns",
+         "url" : " ",
+         "user" : " "
+      },
+      "dn_set" : {
+         "deflicker" : "60",
+         "dn_bw" : "on",
+         "dn_mode" : "auto",
+         "dn_status" : "night"
+      },
+      "event_input" : {
+         "input" : "1",
+         "type" : "NO"
+      },
+      "group_list" : null,
+      "httpport" : {
+         "httpport" : "80"
+      },
+      "info" : {
+         "build" : "001",
+         "builddate" : "20121019",
+         "dns" : "10.1.20.96",
+         "dns1" : "10.1.20.96",
+         "gateway" : "10.1.20.250",
+         "hiddenmod" : "EV8580Q-CD",
+         "ipaddr" : "10.1.21.63",
+         "macaddr" : "00:19:6c:60:07:44",
+         "model" : "EV8580Q-CD",
+         "netmask" : "255.255.254.0",
+         "sn" : "N011001860",
+         "version" : "1.1.3",
+         "wifilan" : "no-nic"
+      },
+      "io" : {
+         "in1" : "off",
+         "in2" : "off",
+         "out1" : "off"
+      },
+      "led" : {
+         "extirsig" : "LA",
+         "ir" : "on",
+         "netled" : "on",
+         "pwrled" : "on"
+      },
+      "lightsensor" : {
+         "switch" : "INT",
+         "type" : "NL"
+      },
+      "motion" : {
+         "enable__1" : "yes",
+         "enable__2" : "no",
+         "enable__3" : "yes",
+         "mdw__1" : "0,0,160,90",
+         "mdw__2" : "0,0,160,90",
+         "mdw__3" : "158,94,161,85",
+         "sensitivity__1" : "30",
+         "sensitivity__2" : "50",
+         "sensitivity__3" : "50",
+         "specificity__1" : "15",
+         "specificity__2" : "25",
+         "specificity__3" : "25",
+         "totalnum" : "3"
+      },
+      "nas" : {
+         "addr" : "LOCALHOST",
+         "folder" : "PATH",
+         "nas" : "off",
+         "nas_status" : "NOMOUNT",
+         "pass" : "PASSWORD",
+         "protocol" : "NFS",
+         "user" : "USERNAME"
+      },
+      "network" : {
+         "dhcp" : "off",
+         "dns1" : "10.1.20.96",
+         "dns2" : "10.1.20.96",
+         "gateway" : "10.1.20.250",
+         "ip" : "10.1.21.63",
+         "netmask" : "255.255.254.0"
+      },
+      "record_prepost" : {
+         "maxbuf" : "24",
+         "postbuf" : "4",
+         "prebuf" : "4",
+         "record_nas" : "on",
+         "record_sd" : "off"
+      },
+      "rs485" : {
+         "baudrate" : "9600",
+         "comm" : "RS485",
+         "databits" : "8",
+         "devid" : "1",
+         "parity" : "None",
+         "proto" : "none",
+         "stopbits" : "1"
+      },
+      "sdcard" : {
+         "free" : "0",
+         "picture" : "0",
+         "status" : "path_invalid",
+         "total" : "49900",
+         "used" : "49900",
+         "video" : "0"
+      },
+      "sensor" : {
+         "autoexposure" : "yes",
+         "autoexposurelimit" : "no",
+         "autogaincontrol" : "yes",
+         "autoiris" : "no",
+         "blc" : "4",
+         "brightness" : "128",
+         "contrast" : "128",
+         "deflicker" : "60",
+         "dn_fps" : "0",
+         "env_pos" : "indoor",
+         "ext_wdr" : "disable",
+         "flip" : "off",
+         "limit_lower" : "0",
+         "limit_upper" : "0",
+         "man_exposure" : "3",
+         "man_gain" : "0",
+         "man_iris" : "0",
+         "max_exposure" : "0",
+         "max_gain" : "6",
+         "mirror" : "off",
+         "nf_level" : "0",
+         "nf_mode" : "auto",
+         "saturation" : "128",
+         "sharpness" : "100",
+         "whitebalance" : "auto"
+      },
+      "sensor_info" : {
+         "brightness" : {
+            "max" : "255",
+            "min" : "0"
+         },
+         "contrast" : {
+            "max" : "255",
+            "min" : "0"
+         },
+         "noisefilter" : {
+            "max" : "255",
+            "min" : "0"
+         },
+         "saturation" : {
+            "max" : "255",
+            "min" : "0"
+         },
+         "sharpness" : {
+            "max" : "255",
+            "min" : "0"
+         }
+      },
+      "sensor_night" : {
+         "autoexposure" : "yes",
+         "autoexposurelimit" : "no",
+         "autogaincontrol" : "yes",
+         "autoiris" : "yes",
+         "blc" : "4",
+         "brightness" : "128",
+         "contrast" : "128",
+         "dn_fps" : "0",
+         "env_pos" : "indoor",
+         "ext_wdr" : "disable",
+         "flip" : "off",
+         "limit_lower" : "0",
+         "limit_upper" : "0",
+         "man_exposure" : "3",
+         "man_gain" : "0",
+         "man_iris" : "0",
+         "max_exposure" : "0",
+         "max_gain" : "6",
+         "mirror" : "off",
+         "nf_level" : "0",
+         "nf_mode" : "auto",
+         "saturation" : "128",
+         "sharpness" : "100",
+         "whitebalance" : "auto"
+      },
+      "stream" : {
+         "auth" : "disable",
+         "max_client" : "10",
+         "multicast" : "off",
+         "multicast_ip" : "228.67.43.91",
+         "multicast_ttl" : "255",
+         "rtp_audio_port" : "6004",
+         "rtp_video_port" : "6002",
+         "rtsp_port" : "554",
+         "stream_name" : "rtpvideo"
+      },
+      "user_list" : {
+         "user" : [
+            {
+               "group" : "admin",
+               "id" : "root"
+            }
+         ],
+         "users" : "1"
+      },
+      "video" : {
+         "profile_id_1" : [
+            {
+               "bitrate" : "4000",
+               "codec" : "H264",
+               "contrec" : "off",
+               "framerate" : "5",
+               "gopsize" : "5",
+               "mode" : "full",
+               "osd" : "on",
+               "quality" : "normal",
+               "ratecontrol" : "CBR",
+               "record" : "off",
+               "resolution" : "1920x1080",
+               "roistartx" : "1",
+               "roistarty" : "0",
+               "tvout" : "off"
+            }
+         ],
+         "sensor_mode" : "1080p"
+      },
+      "video_info" : {
+         "profile_id_1" : [ "1920x1080", "1280x720" ],
+         "profile_id_2" : [ "736x576", "736x480", "640x480", "320x240", "160x120" ],
+         "sensor_mode" : "1080p"
+      }
+   },
+   "cgi_list" : [
+      "info",
+      "camera_info",
+      "datetime",
+      "user_list",
+      "group_list",
+      "stream",
+      "video",
+      "audio_in",
+      "video_info",
+      "sensor_info",
+      "sensor",
+      "sensor_night",
+      "dn_set",
+      "audio",
+      "audiopost",
+      "network",
+      "ddns",
+      "httpport",
+      "motion",
+      "event_input",
+      "action_mail",
+      "nas",
+      "io",
+      "led",
+      "lightsensor",
+      "rs485",
+      "sdcard",
+      "record_prepost"
+   ],
+   "ipaddr" : "10.1.21.63",
+   "password" : "pass",
+   "port" : 80,
+   "username" : "root"
+}
